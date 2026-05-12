@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xe Điện Cute | Bán trả góp mọi dòng xe điện</title>
+    <meta
+      name="description"
+      content="Landing page Xe Điện Cute giúp khách hàng dễ dàng để lại thông tin tư vấn mua xe điện và trả góp linh hoạt."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="logo" href="#top">Xe Điện Cute</a>
+        <nav class="menu">
+          <a href="#gioi-thieu">Giới thiệu</a>
+          <a href="#blog">Blog</a>
+          <a href="#dang-ky">Đăng ký tư vấn</a>
+        </nav>
+        <a class="btn btn-outline" href="#dang-ky">Nhận ưu đãi ngay</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="hero-tag">Thương hiệu xe điện đang được yêu thích</p>
+            <h1>
+              Sang xịn, tiết kiệm,
+              <span>bán trả góp mọi dòng xe điện.</span>
+            </h1>
+            <p class="hero-description">
+              Để lại thông tin để được tư vấn mẫu xe phù hợp, báo giá minh bạch
+              và ưu đãi trả góp linh hoạt trong 5 phút.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#dang-ky">Đặt lịch tư vấn</a>
+              <a class="btn btn-ghost" href="#gioi-thieu">Xem thêm</a>
+            </div>
+            <ul class="quick-stats">
+              <li><strong>6</strong> Chi nhánh TP.HCM</li>
+              <li><strong>21+</strong> Mẫu xe đa dạng</li>
+              <li><strong>24h</strong> Hỗ trợ nhanh</li>
+            </ul>
+          </div>
+
+          <div class="lead-card" id="dang-ky">
+            <h2>Nhận tư vấn 1:1 miễn phí</h2>
+            <p>
+              Điền form dưới đây, đội ngũ Xe Điện Cute sẽ gọi lại cho bạn trong
+              thời gian ngắn nhất.
+            </p>
+            <form class="lead-form" id="lead-form">
+              <label for="name">Họ và tên</label>
+              <input id="name" name="name" type="text" placeholder="Nguyễn Văn A" required />
+
+              <label for="phone">Số điện thoại</label>
+              <input id="phone" name="phone" type="tel" placeholder="09xx xxx xxx" required />
+
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="ban@email.com" required />
+
+              <label for="note">Ghi chú / nhu cầu</label>
+              <textarea
+                id="note"
+                name="note"
+                rows="4"
+                placeholder="Ví dụ: Em muốn hỏi giá V3 946 bản pin, muốn góp trong hôm nay..."
+              ></textarea>
+
+              <button class="btn btn-primary" id="submit-btn" type="submit">Gửi thông tin ngay</button>
+              <p class="form-message" id="form-message" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="gioi-thieu">
+        <div class="container about-inner">
+          <h2>Vì sao nên chọn Xe Điện Cute?</h2>
+          <p>
+            Xe Điện Cute là đơn vị chuyên xe điện và xe đạp điện với định hướng
+            tối giản, minh bạch và phục vụ nhanh. Chúng tôi giúp bạn chọn đúng
+            mẫu xe theo nhu cầu đi học, đi làm hay kinh doanh giao hàng, đồng
+            thời hỗ trợ trả góp linh hoạt và giao xe tận nơi.
+          </p>
+          <div class="about-points">
+            <article>
+              <h3>Mẫu mã đa dạng</h3>
+              <p>Nhiều phân khúc giá, từ phổ thông đến cao cấp.</p>
+            </article>
+            <article>
+              <h3>Tư vấn rõ ràng</h3>
+              <p>Thông tin dễ hiểu, không chi phí mờ, không vẽ vời.</p>
+            </article>
+            <article>
+              <h3>Hỗ trợ sau bán</h3>
+              <p>Hướng dẫn sử dụng, bảo hành và chăm sóc tận tâm.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog" id="blog">
+        <div class="container blog-inner">
+          <p class="section-label">Blog Xe Điện Cutiee</p>
+          <h2>7 bài viết chuẩn SEO thu lead mỗi ngày</h2>
+          <p class="blog-intro">
+            Nội dung được xây theo kế hoạch 7 ngày để tăng từ khóa, tăng tin
+            nhắn và chốt đơn nhanh hơn trên Facebook, Threads và Zalo.
+          </p>
+
+          <div class="blog-grid">
+            <article class="post-card">
+              <img class="post-thumb" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=80" alt="So sánh xe điện và xe xăng để tiết kiệm chi phí" loading="lazy" />
+              <p class="post-meta">Ngày 1 · Mục tiêu: Gây tò mò</p>
+              <h3>Đi xe điện hay xe xăng tiết kiệm hơn trong 1 tháng?</h3>
+              <p>
+                Nếu chỉ tính chi phí nhiên liệu, xe điện thường nhẹ hơn đáng kể
+                so với xe xăng. Bài viết này giúp người mới nhìn rõ khoản tiết
+                kiệm thực tế theo tần suất di chuyển mỗi ngày.
+              </p>
+              <p>
+                Từ khóa SEO: xe điện tiết kiệm chi phí, so sánh xe điện và xe
+                xăng, chi phí đi lại hàng tháng.
+              </p>
+            </article>
+
+            <article class="post-card">
+              <img class="post-thumb" src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=1200&q=80" alt="Tư vấn chọn xe điện theo quãng đường di chuyển" loading="lazy" />
+              <p class="post-meta">Ngày 2 · Mục tiêu: Trao giá trị</p>
+              <h3>Cách chọn xe điện theo quãng đường 20km, 40km, 60km</h3>
+              <p>
+                Khách thường chọn xe theo mẫu, nhưng cách nhanh nhất là chọn theo
+                quãng đường đi mỗi ngày. Bài viết hướng dẫn chọn đúng bản 4 bình,
+                5 bình hay pin LFP để tránh mua dư hoặc thiếu nhu cầu.
+              </p>
+              <p>
+                Từ khóa SEO: cách chọn xe điện, xe điện đi học đi làm, xe điện
+                quãng đường xa.
+              </p>
+            </article>
+
+            <article class="post-card">
+              <img class="post-thumb" src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1200&q=80" alt="Khách hàng chia sẻ trải nghiệm sử dụng xe điện thực tế" loading="lazy" />
+              <p class="post-meta">Ngày 3 · Mục tiêu: Chốt đơn</p>
+              <h3>Khách đã dùng xe điện để đi học và đi làm nói gì?</h3>
+              <p>
+                Feedback thật là dạng nội dung giúp khách mới tin nhanh nhất.
+                Bài này tập trung vào trải nghiệm di chuyển, chi phí sử dụng và
+                độ ổn định sau thời gian sử dụng thực tế.
+              </p>
+              <p>
+                Từ khóa SEO: review xe điện thực tế, feedback xe điện, xe điện
+                cho sinh viên văn phòng.
+              </p>
+            </article>
+
+            <article class="post-card">
+              <img class="post-thumb" src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80" alt="Giải đáp quy định biển số và độ tuổi sử dụng xe điện" loading="lazy" />
+              <p class="post-meta">Ngày 4 · Mục tiêu: Trao giá trị</p>
+              <h3>Xe điện có cần biển số không? Bao nhiêu tuổi được đi?</h3>
+              <p>
+                Đây là nhóm câu hỏi được nhận nhiều nhất trước khi chốt mua.
+                Bài viết tổng hợp gọn các điểm cần lưu ý về độ tuổi sử dụng và
+                trường hợp cần ra biển số theo từng dòng xe.
+              </p>
+              <p>
+                Từ khóa SEO: xe điện có cần biển số, độ tuổi đi xe điện, tư vấn
+                pháp lý xe điện.
+              </p>
+            </article>
+
+            <article class="post-card">
+              <img class="post-thumb" src="https://images.unsplash.com/photo-1593941707882-a5bac6861d75?auto=format&fit=crop&w=1200&q=80" alt="Bảng giá xe điện mới nhất kèm quà tặng trong tuần" loading="lazy" />
+              <p class="post-meta">Ngày 5 · Mục tiêu: Chốt đơn</p>
+              <h3>Bảng giá xe điện hot tuần này kèm quà tặng đang áp dụng</h3>
+              <p>
+                Bài viết cập nhật các mẫu được hỏi nhiều: Type, V3, DK V1,
+                Victoria. Nội dung ưu tiên minh bạch giá và quà tặng đang có để
+                khách dễ dàng so sánh và để lại thông tin.
+              </p>
+              <p>
+                Từ khóa SEO: bảng giá xe điện, giá xe điện mới nhất, xe điện trả
+                góp ưu đãi.
+              </p>
+            </article>
+
+            <article class="post-card">
+              <img class="post-thumb" src="https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=1200&q=80" alt="Mini quiz chọn xe điện theo ngân sách khách hàng" loading="lazy" />
+              <p class="post-meta">Ngày 6 · Mục tiêu: Gây tò mò</p>
+              <h3>Mini quiz: Ngân sách của bạn hợp mẫu xe điện nào?</h3>
+              <p>
+                Người đọc chỉ cần trả lời 3 câu hỏi ngắn: ngân sách, quãng đường
+                và nhu cầu chở 1 hay 2 người. Từ đó shop đề xuất 2-3 mẫu phù hợp
+                nhất kèm giá tham khảo.
+              </p>
+              <p>
+                Từ khóa SEO: tư vấn chọn xe điện theo ngân sách, xe điện giá tốt,
+                quiz chọn xe điện.
+              </p>
+            </article>
+
+            <article class="post-card">
+              <img class="post-thumb" src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=1200&q=80" alt="Hướng dẫn trả góp xe điện và tư vấn 1:1 trong ngày" loading="lazy" />
+              <p class="post-meta">Ngày 7 · Mục tiêu: Chốt đơn</p>
+              <h3>Hướng dẫn trả góp xe điện và quy trình tư vấn 1:1 trong ngày</h3>
+              <p>
+                Bài chốt tuần nên đi thẳng vào nhu cầu mua thật: trả trước bao
+                nhiêu, hồ sơ cần gì, và cách đặt lịch đến cửa hàng. Nội dung để
+                lại số điện thoại cần đặt rõ ở cuối bài.
+              </p>
+              <p>
+                Từ khóa SEO: trả góp xe điện, điều kiện mua xe điện trả góp,
+                tư vấn xe điện 1 1.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <p class="brand">Xe Điện Cute</p>
+          <p>Bán trả góp mọi dòng xe điện</p>
+        </div>
+        <div class="contact">
+          <p>Hotline: 0778 123 268</p>
+          <p>Email: nhatminhdc@gmail.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Dán 2 giá trị này từ Supabase Dashboard vào đây.
+      const SUPABASE_URL = "https://pmolygxmckenlisqszyb.supabase.co";
+      const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBtb2x5Z3htY2tlbmxpc3FzenliIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg1NjM2OTEsImV4cCI6MjA5NDEzOTY5MX0.9YLqyQONWDrKqVHcqRUPyvFSCvl8xNJb6Lomf1Qm44U";
+      const SUPABASE_TABLE = "leads";
+      const MAKE_WEBHOOK_URL = "https://hook.eu2.make.com/iaxgtx5j0cqw5jvkghlm0ury4bjw352x";
+
+      const leadForm = document.getElementById("lead-form");
+      const submitBtn = document.getElementById("submit-btn");
+      const formMessage = document.getElementById("form-message");
+
+      const ADVISORY_ROUTINES = [
+        {
+          key: "routine_hot_installment_13_16",
+          priority: 100,
+          traits: [
+            { key: "hot_lead", weight: 5, required: true },
+            { key: "installment", weight: 5, required: true },
+            { key: "budget_13_16", weight: 4, required: true }
+          ],
+          products: ["bao_gia::Type3Pro_user_confirmed", "bao_gia::vcpro", "bao_gia::Type3"],
+          response:
+            "Dạ nếu mình muốn góp và ngân sách tầm 13-16 triệu, em lọc nhanh 3 mẫu dễ chốt:\\n\\n1) Type 3 Pro: 4 bình 14.990K, 5 bình 15.640K.\\n2) VC Pro 2026: 4 bình 13.490K, 5 bình 14.140K.\\n3) Type 3: từ 13.490, bản full phụ kiện 13.990.\\n\\nBên em có hỗ trợ góp đưa trước 200K với các mẫu có chương trình. Anh/chị cho em xin TÊN + SĐT, em giữ thông tin và tư vấn hồ sơ góp phù hợp cho mình ạ."
+        },
+        {
+          key: "routine_lfp_long_distance_longterm",
+          priority: 95,
+          traits: [
+            { key: "long_distance", weight: 5, required: true },
+            { key: "wants_lfp", weight: 5, required: true },
+            { key: "long_term_use", weight: 4, required: true }
+          ],
+          products: ["tu_van::uu_diem_pin_lfp", "bao_gia::V3.946", "bao_gia::DKV1", "bao_gia::gr56"],
+          response:
+            "Dạ nếu mình đi xa và muốn dùng lâu dài thì bản pin LFP đáng cân nhắc hơn ạ. Pin nhẹ xe hơn khoảng 20kg, sạc nhanh hơn, chống cháy nổ tốt hơn, đi xa hơn 20-30km so với ắc quy và tuổi thọ khoảng 5-8 năm.\\n\\nChi phí ban đầu nhìn cao hơn, nhưng nếu 1 bộ bình ắc quy thay từ khoảng 3,5 triệu, tuổi thọ 1-2 năm, thì bản pin hiệu quả hơn nhiều về lâu dài.\\n\\nMình đang thích form nào: V3 946, DK V1 hay GR56 để em báo đúng bản pin cho mình ạ?"
+        },
+        {
+          key: "routine_vespa_office_installment",
+          priority: 90,
+          traits: [
+            { key: "office_worker", weight: 3, required: true },
+            { key: "likes_vespa", weight: 5, required: true },
+            { key: "installment", weight: 3, required: false }
+          ],
+          products: ["bao_gia::V3.946", "bao_gia::vcpro"],
+          response:
+            "Dạ nếu mình thích dáng Vespa để đi làm/đi phố, em ưu tiên V3 946 ạ:\\n\\n+ 4 bình: 13.990K (40-60km)\\n+ 5 bình: 14.640K (60-80km)\\n+ PIN SẮT LFP: 19.490K (80-100km)\\n\\nMẫu này có thiết kế Vespa 946, chế độ lùi, gầm cao, lốp to, phanh đĩa. Mình muốn trả thẳng hay góp để em tư vấn bản vừa ngân sách nhất ạ."
+        },
+        {
+          key: "routine_delivery_storage_long_distance",
+          priority: 88,
+          traits: [
+            { key: "delivery", weight: 5, required: true },
+            { key: "storage_need", weight: 4, required: true },
+            { key: "long_distance", weight: 3, required: false }
+          ],
+          products: ["bao_gia::gr56", "bao_gia::X1"],
+          response:
+            "Dạ nếu mình cần xe để chở đồ/đi nhiều, em ưu tiên mẫu thực dụng hơn ạ:\\n\\n1) Tailg GR56: 5 bình 15.350.000, pin LFP 20.850.000, cốp rộng, gầm cao, lốp to, phanh đĩa.\\n2) X1: 4 bình 13.500K, 5 bình 14.150K, gầm cao, lốp to, phanh đĩa, có chế độ lùi.\\n\\nMình chở đồ nhiều hay chủ yếu đi xa mỗi ngày để em chốt mẫu hợp hơn ạ?"
+        },
+        {
+          key: "routine_parent_child_safety_near",
+          priority: 85,
+          traits: [
+            { key: "parent_buying", weight: 5, required: true },
+            { key: "safety_priority", weight: 4, required: true },
+            { key: "near_distance", weight: 3, required: false }
+          ],
+          products: ["bao_gia::m19.thanhly", "bao_gia::Type3", "bao_gia::vcpro"],
+          response:
+            "Dạ nếu mình mua cho con đi học, em ưu tiên mẫu dễ chạy, vừa tầm và bảo hành rõ ạ.\\n\\n- M19 Plus: 6.990k, đi gần hằng ngày, không cần bằng lái/biển số.\\n- Type 3: từ 13.490, form đẹp hơn, có quà tặng và hỗ trợ góp đưa trước 200K.\\n\\nMình cho em xin chiều cao/người dùng và quãng đường đi học mỗi ngày, em lọc đúng mẫu để bé đi thoải mái hơn ạ."
+        },
+        {
+          key: "routine_registration_16plus_premium",
+          priority: 82,
+          traits: [
+            { key: "needs_registration", weight: 4, required: true },
+            { key: "age_16_plus", weight: 4, required: true },
+            { key: "premium_budget", weight: 2, required: false }
+          ],
+          products: ["bao_gia::victori", "bao_gia::DKV1"],
+          response:
+            "Dạ nếu mình quan tâm biển số/giấy tờ thì em lọc 2 mẫu rõ hơn:\\n\\n1) Victoria: 17.990k bản 5 bình, 23.490k bản pin LFP. Xe bắt buộc ra biển số, phí ra biển số +3tr3, 16+ mới được chạy.\\n2) DK V1: từ 16.590K, có giấy xuất xưởng đầy đủ, có thể ra biển số.\\n\\nMình muốn xe bắt buộc ra biển hay chỉ cần giấy tờ đầy đủ để em tư vấn đúng hơn ạ?"
+        },
+        {
+          key: "routine_student_low_budget_near",
+          priority: 80,
+          traits: [
+            { key: "student", weight: 4, required: true },
+            { key: "low_budget", weight: 4, required: true },
+            { key: "near_distance", weight: 3, required: true }
+          ],
+          products: ["bao_gia::m19.thanhly", "bao_gia::Type3"],
+          response:
+            "Dạ với nhu cầu đi học/đi gần và muốn ngân sách mềm, em ưu tiên lọc cho mình 2 hướng:\\n\\n1) M19 Plus: giá 6.990k, đi khoảng 40km/lần sạc, không cần bằng lái/biển số.\\n2) Type 3: giá từ 13.490, form đẹp hơn và nhiều phụ kiện hơn.\\n\\nMình đi tầm bao nhiêu km/ngày và có chở thêm người không để em chốt đúng mẫu cho mình ạ."
+        }
+      ];
+
+      function getBestAdvisoryRoutine(inputTraits) {
+        const selectedTraits = new Set(inputTraits.map((trait) => String(trait).trim()).filter(Boolean));
+
+        return ADVISORY_ROUTINES.map((routine) => {
+          const missingRequired = routine.traits.filter(
+            (trait) => trait.required && !selectedTraits.has(trait.key)
+          );
+
+          if (missingRequired.length > 0) {
+            return null;
+          }
+
+          const matchedTraits = routine.traits.filter((trait) => selectedTraits.has(trait.key));
+          const score = matchedTraits.reduce((total, trait) => total + trait.weight, 0) + routine.priority;
+          const coverage = matchedTraits.length / routine.traits.length;
+
+          return {
+            ...routine,
+            score,
+            coverage,
+            matchedTraits: matchedTraits.map((trait) => trait.key)
+          };
+        })
+          .filter(Boolean)
+          .sort((a, b) => b.score - a.score || b.coverage - a.coverage || b.priority - a.priority)[0] || null;
+      }
+
+      function buildAdvisoryResponse(inputTraits) {
+        const routine = getBestAdvisoryRoutine(inputTraits);
+        if (!routine) {
+          return "Dạ em cần thêm ngân sách, quãng đường đi mỗi ngày và mình muốn trả thẳng hay góp để tư vấn đúng mẫu nhất ạ.";
+        }
+
+        return routine.response;
+      }
+
+      window.brainAdvisor = {
+        routines: ADVISORY_ROUTINES,
+        getBestAdvisoryRoutine,
+        buildAdvisoryResponse
+      };
+
+      function normalizeText(value) {
+        return String(value || "")
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/đ/g, "d");
+      }
+
+      function countKeywordMatches(text, keywords) {
+        return keywords.reduce((total, keyword) => {
+          return text.includes(keyword) ? total + 1 : total;
+        }, 0);
+      }
+
+      function classifyLeadCategory(note) {
+        const text = normalizeText(note);
+
+        if (!text.trim()) {
+          return "Warm";
+        }
+
+        const hotKeywords = [
+          "mua ngay",
+          "chot",
+          "can gap",
+          "hom nay",
+          "mai lay",
+          "lay xe",
+          "dat xe",
+          "giu xe",
+          "con xe",
+          "hoi gia",
+          "bao gia",
+          "gia sao",
+          "bao nhieu",
+          "tra gop",
+          "gop",
+          "duyet ho so",
+          "toi shop",
+          "qua shop"
+        ];
+
+        const warmKeywords = [
+          "tu van",
+          "tim hieu",
+          "tham khao",
+          "xin thong tin",
+          "gui thong tin",
+          "chi tiet",
+          "mau nao",
+          "nen chon",
+          "phan van",
+          "so sanh",
+          "di duoc bao xa",
+          "uu diem",
+          "pin",
+          "bao hanh"
+        ];
+
+        const coldKeywords = [
+          "qua mien phi",
+          "mien phi",
+          "nhan qua",
+          "tang gi",
+          "voucher",
+          "giveaway",
+          "chi xem",
+          "xem cho vui",
+          "test",
+          "khong mua"
+        ];
+
+        const hotScore = countKeywordMatches(text, hotKeywords);
+        const warmScore = countKeywordMatches(text, warmKeywords);
+        const coldScore = countKeywordMatches(text, coldKeywords);
+
+        if (hotScore >= 1 || (hotScore + warmScore >= 2 && text.includes("gia"))) {
+          return "Hot";
+        }
+
+        if (coldScore >= 1 && hotScore === 0) {
+          return "Cold";
+        }
+
+        return warmScore >= 1 ? "Warm" : "Cold";
+      }
+
+      function detectLeadTraits(note, category) {
+        const text = normalizeText(note);
+        const traits = [];
+
+        if (category === "Hot") traits.push("hot_lead");
+        if (category === "Cold") traits.push("cold_lead");
+        if (text.includes("gop") || text.includes("tra gop")) traits.push("installment");
+        if (text.includes("pin") || text.includes("lfp")) traits.push("wants_lfp");
+        if (text.includes("di xa") || text.includes("80km") || text.includes("100km")) traits.push("long_distance");
+        if (text.includes("lau dai") || text.includes("ben") || text.includes("tuoi tho")) traits.push("long_term_use");
+        if (text.includes("vespa") || text.includes("946") || text.includes("v3")) traits.push("likes_vespa");
+        if (text.includes("di lam") || text.includes("van phong")) traits.push("office_worker");
+        if (text.includes("di hoc") || text.includes("sinh vien") || text.includes("hoc sinh")) traits.push("student");
+        if (text.includes("cho con") || text.includes("mua cho con")) traits.push("parent_buying");
+        if (text.includes("an toan") || text.includes("de chay")) traits.push("safety_priority");
+        if (text.includes("cho do") || text.includes("giao hang") || text.includes("shipper")) traits.push("delivery", "storage_need");
+        if (text.includes("bien so") || text.includes("ra bien")) traits.push("needs_registration");
+        if (text.includes("13") || text.includes("14") || text.includes("15") || text.includes("16")) traits.push("budget_13_16");
+        if (text.includes("duoi 10") || text.includes("gia re") || text.includes("mem")) traits.push("low_budget");
+
+        return [...new Set(traits)];
+      }
+
+      function getProductSpecificReply(payload) {
+        const text = normalizeText(payload.note);
+
+        if (text.includes("type 3 pro") || text.includes("type3 pro") || text.includes("type3pro")) {
+          return [
+            "Dạ em chào anh/chị, em nhận được thông tin mình hỏi mẫu Type 3 Pro ạ.",
+            "",
+            "Giá hiện tại:",
+            "+ 4 bình: 14.990K",
+            "+ 5 bình: 15.640K",
+            "+ PIN SẮT LFP full PK: 21.500K",
+            "",
+            "Phụ kiện thêm:",
+            "- Full PK (rổ, chụp đèn, khung): +1tr",
+            "- Ghế bé vòng: 780k",
+            "- Ghế bé gập: 650k",
+            "- Phuộc: 2tr5",
+            "- Đèn trợ sáng: 500k (không bảo hành đường dây điện)",
+            "- Baga ngắn: 650k",
+            "",
+            "Mình muốn trả thẳng hay góp để em tư vấn phương án phù hợp nhất cho mình ạ?"
+          ].join("\n");
+        }
+
+        if (text.includes("v3") || text.includes("946") || text.includes("vespa")) {
+          return [
+            "Dạ em chào anh/chị, em gửi mình giá V3 946 ạ:",
+            "",
+            "+ 4 bình: 13.990K (40 - 60km)",
+            "+ 5 bình: 14.640K (60 - 80km)",
+            "+ PIN SẮT LFP: 19.490K (80 - 100km)",
+            "",
+            "Quà tặng: thảm - tem - bàn đạp - nón bảo hiểm - biển số Cute - định vị.",
+            "Nâng cấp pin tặng gói cứu hộ tận nơi 1 năm hoặc tai nghe Airpod.",
+            "",
+            "Mẫu này dáng Vespa 946, có chế độ lùi, gầm cao, lốp to, phanh đĩa. Mình muốn em tư vấn bản bình hay bản pin cho hợp nhu cầu ạ?"
+          ].join("\n");
+        }
+
+        if (text.includes("victoria")) {
+          return [
+            "Dạ em chào anh/chị, em gửi mình giá Xe Máy Điện Victoria ạ:",
+            "",
+            "- Giá: 17.990k (60 - 80km): 5 bình ắc quy",
+            "- Giá: 23.490k (80 - 100km): PIN SẮT LFP",
+            "",
+            "Giá xe chưa bao gồm phí ra biển số, ra biển số +3tr3.",
+            "Xe này yêu cầu bắt buộc ra biển số và 16+ mới được chạy ạ.",
+            "",
+            "Mình muốn xem bản 5 bình hay bản pin để em tư vấn tổng chi phí cho mình ạ?"
+          ].join("\n");
+        }
+
+        if (text.includes("pin") || text.includes("lfp")) {
+          return [
+            "Dạ bản pin chi phí ban đầu sẽ cao hơn chút, nhưng bù lại xe nhẹ hơn khoảng 20kg, sạc nhanh hơn, chống cháy nổ tốt hơn, đi xa hơn 20-30km so với ắc quy và tuổi thọ pin tầm 5-8 năm.",
+            "",
+            "Nếu mình tính lâu dài, 1 bộ bình ắc quy thay từ khoảng 3,5 triệu mà tuổi thọ 1-2 năm, thì bản pin sẽ hiệu quả hơn nhiều so với số tiền mình bỏ ra ạ.",
+            "",
+            "Mình đang xem mẫu xe nào để em báo đúng giá bản pin cho mình nha?"
+          ].join("\n");
+        }
+
+        return "";
+      }
+
+      function buildCopyReplyForLead(payload) {
+        const productReply = getProductSpecificReply(payload);
+        if (productReply) {
+          return productReply;
+        }
+
+        const traits = detectLeadTraits(payload.note, payload.category);
+        const advisoryReply = buildAdvisoryResponse(traits);
+
+        if (payload.category === "Hot") {
+          return advisoryReply;
+        }
+
+        if (payload.category === "Warm") {
+          return [
+            "Dạ em chào anh/chị, em nhận được thông tin mình để lại rồi ạ.",
+            "",
+            "Em tư vấn nhanh theo nhu cầu của mình trước nha:",
+            advisoryReply,
+            "",
+            "Mình cho em xin thêm ngân sách dự kiến và quãng đường đi mỗi ngày, em lọc đúng 1-2 mẫu phù hợp nhất cho mình ạ."
+          ].join("\n");
+        }
+
+        return [
+          "Dạ em chào anh/chị, em nhận được thông tin mình để lại rồi ạ.",
+          "",
+          "Để em tư vấn đúng mẫu và đúng giá, mình cho em xin thêm 2 thông tin nha:",
+          "1) Mình muốn mua trả thẳng hay trả góp?",
+          "2) Mình đi khoảng bao nhiêu km/ngày?",
+          "",
+          "Có thông tin này em sẽ gửi đúng 1-2 mẫu phù hợp nhất cho mình, không gửi lan man ạ."
+        ].join("\n");
+      }
+
+      function setFormMessage(message, type) {
+        formMessage.textContent = message;
+        formMessage.className = "form-message";
+        if (type) {
+          formMessage.classList.add("form-message-" + type);
+        }
+      }
+
+      async function sendMakeWebhook(payload) {
+        const copyReply = buildCopyReplyForLead(payload);
+        const makePayload = {
+          name: payload.name,
+          phone: payload.Phone,
+          email: payload.email,
+          note: payload.note,
+          category: payload.category,
+          suggestedReply: copyReply,
+          source: "landing_page_xe_dien_cute",
+          submittedAt: new Date().toISOString()
+        };
+
+        const makeResponse = await fetch(MAKE_WEBHOOK_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(makePayload)
+        });
+
+        if (!makeResponse.ok) {
+          const makeError = await makeResponse.text();
+          throw new Error(makeError || "Không gửi được dữ liệu đến Make Webhook.");
+        }
+      }
+
+      leadForm.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        if (
+          SUPABASE_URL.includes("PASTE_YOUR_SUPABASE_URL_HERE") ||
+          SUPABASE_ANON_KEY.includes("PASTE_YOUR_SUPABASE_ANON_KEY_HERE")
+        ) {
+          setFormMessage("Bạn chưa dán SUPABASE_URL và SUPABASE_ANON_KEY.", "error");
+          return;
+        }
+
+        const formData = new FormData(leadForm);
+        const note = String(formData.get("note") || "").trim();
+        const category = classifyLeadCategory(note);
+        const payload = {
+          name: String(formData.get("name") || "").trim(),
+          Phone: String(formData.get("phone") || "").trim(),
+          email: String(formData.get("email") || "").trim(),
+          note,
+          category
+        };
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Đang gửi...";
+        setFormMessage("Đang gửi thông tin, vui lòng đợi...", "loading");
+
+        try {
+          const response = await fetch(`${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE}`, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              apikey: SUPABASE_ANON_KEY,
+              Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+              Prefer: "return=representation"
+            },
+            body: JSON.stringify(payload)
+          });
+
+          if (!response.ok) {
+            let detailMessage = "Khong the luu du lieu vao Supabase.";
+            const errorText = await response.text();
+            if (errorText) {
+              try {
+                const errorJson = JSON.parse(errorText);
+                detailMessage = errorJson.message || errorJson.error || errorJson.details || detailMessage;
+              } catch (parseError) {
+                detailMessage = errorText;
+              }
+            }
+            throw new Error(detailMessage);
+          }
+
+          await sendMakeWebhook(payload);
+
+          leadForm.reset();
+          setFormMessage("Gửi thành công! Đội ngũ sẽ liên hệ bạn sớm.", "success");
+        } catch (error) {
+          console.error("Submit lead failed:", error);
+          setFormMessage(`Gửi thất bại: ${error.message}`, "error");
+        } finally {
+          submitBtn.disabled = false;
+          submitBtn.textContent = "Gửi thông tin ngay";
+        }
+      });
+    </script>
+  </body>
+</html>
