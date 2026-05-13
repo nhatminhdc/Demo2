@@ -614,13 +614,15 @@
           submittedAt: new Date().toISOString()
         };
 
+        const formBody = new URLSearchParams();
+        Object.entries(makePayload).forEach(([key, value]) => {
+          formBody.append(key, value == null ? "" : String(value));
+        });
+
         await fetch(MAKE_WEBHOOK_URL, {
           method: "POST",
           mode: "no-cors",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify(makePayload)
+          body: formBody
         });
       }
 
