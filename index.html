@@ -614,16 +614,14 @@
           submittedAt: new Date().toISOString()
         };
 
-        const makeResponse = await fetch(MAKE_WEBHOOK_URL, {
+        await fetch(MAKE_WEBHOOK_URL, {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          mode: "no-cors",
+          headers: {
+            "Content-Type": "application/json"
+          },
           body: JSON.stringify(makePayload)
         });
-
-        if (!makeResponse.ok) {
-          const makeError = await makeResponse.text();
-          throw new Error(makeError || "Không gửi được dữ liệu đến Make Webhook.");
-        }
       }
 
       leadForm.addEventListener("submit", async (event) => {
